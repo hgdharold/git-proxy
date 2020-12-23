@@ -1,0 +1,25 @@
+{
+  "extends": "@tsconfig/node10/tsconfig.json",
+  "rootDir": "src",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "src/@types",
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
