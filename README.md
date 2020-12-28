@@ -40,7 +40,7 @@
     - 后台运行（或pm2等其他方式）：
       ```sh
       # 脚本放在 .git/ 目录下
-      nohup node .git/git-proxy.js >> abc.log 2>&1 &
+      nohup node .git/git-proxy.js >> .git/abc.log 2>&1 &
       ```
     
 
